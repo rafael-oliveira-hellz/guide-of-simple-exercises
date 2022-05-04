@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className='container-fluid'>
+      <div className='container-fluid customMargin'>
         <div className="card" style={{ width: '75%', margin: 'auto' }}>
           <img src={Javascript} alt='Banner do Javascript' />
           <div className="card-body">
@@ -100,7 +100,7 @@ function App() {
           </ol>
         </div>
 
-        <div className="card mt-5" style={{ width: '75%', margin: 'auto' }}>
+        <div className="card my-5" style={{ width: '75%', margin: 'auto' }}>
           <img src={Node} alt='Banner do Node' />
           <div className="card-body">
             <h2 className="card-title">Projetos em Node</h2>
@@ -119,6 +119,14 @@ function App() {
           </ol>
         </div>
       </div>
+
+<footer>
+  <nav className="navbar fixed-bottom navbar-dark bg-dark">
+    <div className="container-fluid d-flex justify-content-center">
+      <a className="navbar-brand" href="#">All Rights Reserved © Rafael de Oliveira (Hellz)</a>
+    </div>
+  </nav>
+</footer>
     </>
   )
 }
