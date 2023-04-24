@@ -123,7 +123,7 @@ function App() {
 <footer>
   <nav className="navbar fixed-bottom navbar-dark bg-dark">
     <div className="container-fluid d-flex justify-content-center">
-      <a className="navbar-brand" href="#">2022 All Rights Reserved © Rafael de Oliveira (Hellz)</a>
+      <a className="navbar-brand" href="#">2023 All Rights Reserved © Rafael de Oliveira (Hellz)</a>
     </div>
   </nav>
 </footer>
